@@ -1,0 +1,76 @@
+body{
+	line-height: 1.75;
+	color: black;
+	#font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,h2{
+	font-family: Verdana, sans-serif;
+}
+h2{
+	margin: 50px;
+}
+p{
+	margin: 10px;
+}
+h2,h3,h4,h5,h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#logo{
+	margin-bottom: 12px;
+}
+.anchor{
+	position: relative;
+	top: -60px;
+	display: block;
+}
+#resources h3, li{
+	margin-left: 20%;
+	text-align: left;
+}
+.btn{
+	margin-top: 30px;
+}
+#contact a{
+	text-decoration: underline;
+}
+section img{
+	margin-top: 25px;
+}
+nav a:active{
+	text-decoration: underline;
+}
+nav{
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 30px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+/** TEAM **/
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
+
+footer{
+	margin: 40px 0px;
+	color: gray;
+}
