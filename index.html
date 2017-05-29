@@ -21,24 +21,31 @@
 
   <body>
 
+<!--Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">NYU ACM-W</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about-anchor">About</a></li>
+            <li><a href="#events-anchor">Events</a></li>
+            <li><a href="#resources-anchor">Resources</a></li>
+            <li><a href="#team-anchor">Team</a></li></li>
+            <li><a href="#contact-anchor">Contact</a></li></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+    </nav>
 <!--Home -->
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-          <div class="masthead clearfix">
-            <div class="inner">
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#about-anchor">About</a></li>
-                  <li><a href="#events-anchor">Events</a></li>
-                  <li><a href="#resources-anchor">Resources</a></li>
-                  <li><a href="#team-anchor">Team</a></li></li>
-                  <li><a href="#contact-anchor">Contact</a></li></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
           <div class="inner cover">
             <h2 class="cover-heading">New York University<br>
             Tandon School of Engineering's</h2>
@@ -196,7 +203,7 @@
         </div>
     </section>
 <!--Contact -->
-    <a id="about-anchor" class="anchor"></a>
+    <a id="contact-anchor" class="anchor"></a>
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -223,6 +230,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
 </html>

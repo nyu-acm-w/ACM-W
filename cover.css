@@ -61,37 +61,6 @@ body {
 nav{
   background-color: black;
 }
-.masthead-nav{
-  width: 100%;
-  vertical-align: center;
-}
-.masthead-nav > li {
-  display: inline-block;
-  margin: 0px 20px 10px 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  padding-bottom: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
 
 
 /*
@@ -115,24 +84,17 @@ nav{
  */
 
 @media (min-width: 768px) {
-  /* Pull out the header */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
   }
   /* Handle the widths */
-  .masthead,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
 @media (min-width: 992px) {
-  .masthead,
   .cover-container {
     width: 700px;
   }
