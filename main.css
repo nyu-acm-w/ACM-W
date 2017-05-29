@@ -3,6 +3,9 @@ body{
 	color: black;
 	font-family: Verdana, sans-serif;
 }
+h1{
+	font-size: 34px;
+}
 h2{
 	margin: 50px;
 }
@@ -22,12 +25,11 @@ footer{
 }
 /***********************************************/
 #logo{
-	margin-bottom: 12px;
+	margin-top: 20px;
 }
-.anchor{
-	position: relative;
-	top: -50px;
-	display: block;
+section{
+	padding-top: 50px;
+	margin-top: -50px;
 }
 #resources h3, #resources li{
 	margin-left: 20%;
@@ -46,6 +48,7 @@ footer{
 }
 .navbar-nav{
 	float: right;
+	font-size: 18px;
 }
 .navbar-brand{
 	float: left;
@@ -78,6 +81,16 @@ footer{
 	.navbar-brand{
 		float: left;
 	}
+	#resources li{
+		text-decoration: underline;
+	}
+	.cover-container{
+		margin: 30% auto;
+	}
+	h1{
+    	font-size: 20px;
+  	}
+}
 /**
 @media (min-width: 992px) {
   .cover-container {
