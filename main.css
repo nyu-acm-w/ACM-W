@@ -16,6 +16,11 @@ h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+/***********************************************/
+section{
+	padding-top: 50px;
+	margin-top: -50px;
+}
 section img{
 	margin-top: 25px;
 }
@@ -27,9 +32,10 @@ footer{
 #logo{
 	margin-top: 20px;
 }
-section{
-	padding-top: 50px;
-	margin-top: -50px;
+#aboutPic{
+	width: 450px;
+	margin: 15px;
+	padding-right: 50px;
 }
 #resources h3, #resources li{
 	margin-left: 20%;
@@ -38,10 +44,14 @@ section{
 .btn{
 	margin-top: 30px;
 }
-#contact a{
+#about a, #contact a{
 	text-decoration: underline;
 }
-
+.site-wrapper{
+	background-color: aliceblue;
+}
+/************************************************** 
+	NAVBAR **/
 .navbar{
 	padding: 0px 10px;
 	font-weight: bold;
@@ -54,7 +64,26 @@ section{
 	float: left;
 }
 /************************************************** 
-	TEAM **/
+	TEAM without Portfolio **/
+.team-member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
+#anaBonsoli{
+	width: 400px;
+	margin-bottom: 25px;
+}
+
+/************************************************** 
+	TEAM with Portfolio
 .team-member {
   text-align: center;
   margin-bottom: 50px;
@@ -72,9 +101,13 @@ section{
 .team-member p {
   margin-top: 0;
 }
+**/
 /************************************************** 
 	MEDIA QUEIRIES **/
 @media (max-width: 768px) {
+	h1{
+    	font-size: 28px;
+  	}
 	.navbar-nav{
 		float: none;
 	}
@@ -87,13 +120,13 @@ section{
 	.cover-container{
 		margin: 30% auto;
 	}
-	h1{
-    	font-size: 20px;
-  	}
-}
-/**
-@media (min-width: 992px) {
-  .cover-container {
-    width: 700px;
-  }**/
+  	#aboutPic{
+		max-width: 250px;
+		margin: none;
+		padding: 0px;
+	}
+	#anaBonsoli{
+		width: 100%;
+	}
+
 }
