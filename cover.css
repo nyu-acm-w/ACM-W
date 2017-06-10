@@ -31,7 +31,6 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 0.5px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -68,7 +67,6 @@ body {
   font-weight: bold;
 }
 .cover-heading{
-  font-weight: normal;
   text-transform: none;
 }
 
