@@ -1,235 +1,468 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="NYU Tandon SoE's Association for Computing Machinery 
-Women's Chapter">
-    <meta name="keywords" content="Women in Computer Science, ACM-W">
-    <meta name="author" content="Alice Lu">
-    
-    <title>NYU ACMW</title>
+<head>
+  <meta charset="utf-8">
+  <title>NYU ACM-W</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="logo/acmw_logo2.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-  </head>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
 
-  <body data-spy="scroll" data-target=".navbar"> <!--enable scrollspy-->
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!--Navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">NYU ACM-W</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#resources">Resources</a></li>
-            <li><a href="#team">Team</a></li></li>
-            <li><a href="#contact">Contact</a></li></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-    </nav>
-<!--Home -->
-    <div id="home" class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="inner cover">
-            <h1 class="cover-heading">New York University<br>
-            Tandon School of Engineering's</h1>
-            <img id="logo" src="logo/acmw_logo.png" height="100"></img>
-            <h1 class="cover-heading">Association for Computing Machinery <br>Women's Chapter</h1>
-            <a href="#about" class="btn btn-lg btn-default">Learn more</a>
-          </div>
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+
+    <div id="topbar">
+      <div class="container">
+        <div class="social-links">
+          <!-- <a href="#" class="twitter" title="coming soon!" ><i class="fa fa-twitter"></i></a> -->
+          <a href="https://www.facebook.com/nyuacmw" class="facebook"><i class="fa fa-facebook"></i></a>
+          <!-- <a href="#" class="linkedin" title="coming soon!"><i class="fa fa-linkedin"></i></a> -->
+          <a href="https://www.instagram.com/acmwnyu" class="instagram" ><i class="fa fa-instagram"></i></a>
         </div>
       </div>
     </div>
-<!--About -->
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1> -->
+        <a href="#topbar" class="scrollto"><img src="logo/acmw_logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li class="drop-down"><a href="#about">About</a>
+            <ul>
+              <li><a href="#about">Chapter</a></li>
+              <li><a href="https://women.acm.org/" target="_blank">Organization</a></li>
+              <li><a href="#team">Team</a></li>
+            </ul>
+          </li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#footer">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2>Supporting, Celebrating, and Advocating for <span>Women in Computing</span></h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="logo/acmw_logo2.png" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
     <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-xs-center">
-                    <h2 class="section-heading">About</h2>
-                </div>
-                <div class="col-lg-6 text-xs-center">
-                    <img id="aboutPic" src="img/acmwFirstMeet.jpg">
-                </div>
-                <div class="col-lg-6 text-xs-center">
-                    <p>NYU's ACM-W is the first student chapter at the Tandon School of Engineering to focus on celebrating and giving opportunities to women in computing machinery.</p>
-                    <p>Our past meetings included workshops on designing web portfolios, creating projects with GitHub, and coding on Raspberry Pi.</p>
-                    <p>Connect with us on our <a href="https://www.facebook.com/nyuacmw">Facebook page</a> to stay up to date with future events!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- Events Section -->
-    <section id="events">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-xs-center">
-                    <h2 class="section-heading">Events</h2>
-                </div>
-                <div class="col-lg-6 text-xs">
-                    <h3>General Meetings</h3>
-                    <p>Our meetings and events often occur bi-weekly. These include general discussion meetings, tech talks/panels, workshops, social outings, game nights, and fundraisers.</p>
-                </div>
-                <div class="col-lg-6 text-xs">
-                    <img src="img/tandon.png" width=80% height=80% >
-                    <figcaption>Location: 6 MetroTech Center, Brooklyn, NY 11201</figcaption>
-                </div>                 
-            </div>
-        </div>
-    </section>
-<!-- Resources -->
-    <section id="resources">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-xs-center">
-                    <h2 class="section-heading">Resources</h2>
-                </div>
-                <div class="col-lg-6 text-xs">
-                    <h3>Upcoming hackathons:</h3>
-                    <ul style="list-style-type:none">
-                        <li><a href="http://hackny.org/hackathon/">HackNY</a></li>
-                        <li><a href="http://hacknyu.org/">HackNYU</a></li>
-                        <li><a href="https://mlh.io/seasons/na-2019/events">MLH - 2019 Season Schedule</a></li>
-                    </ul>
 
-                    <h3>Explore &amp Learn Code:</h3>
-                    <ul style="list-style-type:none">
-                        <li><a href="https://www.codecademy.com/">Codecademy</a></li>
-                        <li><a href="http://www.w3schools.com/">W3Schools</a></li>
-                        <li><a href="https://teamtreehouse.com/">Treehouse</a></li>
-                        <li><a href="https://github.com/explore">Github</a></li>
-                    </ul>
-                    <h3>Career Development</h3>
-                    <ul style="list-style-type:none">
-                        <li><a href="https://www.nyu.edu/students/student-information-and-resources/career-development-and-jobs.html">Wasserman Center for Career Development</a></li>
-                        <li><a href="http://beinbrooklyn.org/jobs/">Brooklyn Education Innovation Network</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 text-xs">
-                    <img src="img/hacknyu.jpg" width ="80%"" height="80%">
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- Team -->
-    <section id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-xs-center">
-                    <h2 class="section-heading">Meet the Team</h2>
-                </div>
-            </div>
-            <div class="col-sm-12 text-xs-center">
-                <img id="anaBonsoli" src="img/anaBonsoli.jpg" alt="Ana Bolsoni"><br>
-                <p class="text-muted">Ana Bonsoli | Founder</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Ana Bolsoni</h4>
-                        <p class="text-muted">Founder</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Ph.D Linda Sellie</h4>
-                        <p class="text-muted">Supervisor</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Alice Lu</h4>
-                        <p class="text-muted">Co-President</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Raizy Cohen</h4>
-                        <p class="text-muted">Co-President</p>
-                    </div>
-                </div>
- 
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Karey Zheng</h4>
-                        <p class="text-muted">Treasurer</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Cindy Kim</h4>
-                        <p class="text-muted">Director of Public Relations</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Cindy Lee</h4>
-                        <p class="text-muted">Director of Marketing</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Jessica Kim</h4>
-                        <p class="text-muted">Director of External Programming</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <h4>Hannah Daniel</h4>
-                        <p class="text-muted">Director of Internal Programming</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--Contact -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-xs-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <p>Follow us on Facebook <a href="https://www.facebook.com/nyuacmw">here!</a></p>
-                    <p>For any questions and concerns, email us at <a href="mailto:acm-w-chapter@nyu.edu">acm-w-chapter@nyu.edu</a></p>
-                    <p>For any information about ACM-W, go to <a href="https://women.acm.org">women.acm.org</a></p>
-            </div>
-        </div>
-    </section>
-<!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; NYU Tandon SoE's ACM-W 2017</span>
-                </div>
-            </div>
-        </div>
-    </footer>
+      <div class="container">
+        <div class="row">
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-  </body>
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+              <img src="img/acmwFirstMeet-cropped.jpg" alt="Ana Bonsoli, founder of the ACM-W NYU chapter">
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-6">
+            <div class="about-content">
+              <h2>About Us</h2>
+              <h3>Association for Computer Machinery Women's Chapter</h3>
+              <p>NYU's ACM-W is the first student chapter at the Tandon School of Engineering to focus on celebrating and giving opportunities to women in computing machinery.
+              Our past meetings included workshops on designing web portfolios, creating projects with GitHub, and coding on Raspberry Pi.</p>
+              <p>The Association for Computing Machinery - Women's Chapter or ACM-W is an association that celebrates,
+                 supports and informs women in the STEM field. We host a variety of events such as: </p>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i>workshops on trending technological topics</li>
+                <li><i class="ion-android-checkmark-circle"></i>guest speakers from the industry</li>
+                <li><i class="ion-android-checkmark-circle"></i>field trips to companies such as Facebook, Google, Twitter, and more</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- #about -->
+
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Mission Statement</h3>
+            <p class="cta-text"> ACM-W supports, celebrates, and advocates internationally for the full engagement of women in all aspects of the computing field, providing a wide range of programs and resources to ACM members and working in the larger community to advance the contributions of technical women.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://women.acm.org">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3>Meet the Team</h3>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ph.D Linda Sellie</h4>
+                  <span>Supervisor</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Karey Zheng</h4>
+                  <span>President</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Anuska Rungta</h4>
+                  <span> Vice President</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Cindy Kim</h4>
+                  <span>Secretary</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6  wow fadeInUp">
+            <div class="member">
+              <img src="img/team-blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Tatyana Graesser</h4>
+                  <span>Treasurer, Webmaster</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Jules Kho</h4>
+                  <span>Director of Communications</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sophie Lowen</h4>
+                  <span>Director of Marketing</span>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Thao Nguyen</h4>
+                  <span>Director of Marketing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+
+
+    <!--==========================
+      Events Section
+    ============================-->
+    <section id="about">
+      <span id="events"></span>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6">
+            <div class="about-content">
+              <h2>Events</h2>
+              <h3>General Meetings</h3>
+              <p>Our meetings and events often occur bi-weekly. These include general discussion meetings, tech talks/panels, workshops, social outings, game nights, and fundraisers.</p>
+              <p>You can see our full schedule of past and future events in the calendar on the left</p>
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-6">
+            <div class="about-img">
+              <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23f5fafc&amp;ctz=America%2FNew_York&amp;src=bnl1LmVkdV9jN3M4NnZxdGxqNmI0ZWE0MzZmajd1cmtxZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=1&amp;showTz=0"  width="100%" height="500" frameborder="8" scrolling="no"></iframe>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section><!-- #about -->
+    <!--==========================
+      resources Section
+    ============================-->
+    <section id="resources" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Resources</h3>
+          <p>Here's some helpful resources we have compiled. Please <a href="mailto:acm-w-chapter@nyu.edu">let us know</a> if there's anything you think we should add!</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-clock-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title">Upcoming Hackathons</h4>
+              <p class="description">
+                <a href="http://hackny.org/hackathon/">HackNY</a><br/>
+                <a href="http://hacknyu.org/">HackNYU</a><br/>
+                <a href="https://mlh.io/seasons/na-2019/events">MLH - 2019 Season Schedule</a>
+            </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
+              <h4 class="title">Explore & Learn Code</h4>
+              <p class="description">
+                <a href="https://www.codecademy.com/">Codecademy</a><br/>
+                <a href="http://www.w3schools.com/">W3Schools</a><br/>
+                <a href="https://teamtreehouse.com/">Treehouse</a><br/>
+                <a href="https://github.com/explore">Github</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #ecebff;"><i class="ion-ios-contact-outline" style="color: #8660fe;"></i></div>
+              <h4 class="title">Career Development</h4>
+              <p class="description">
+                <a href="https://www.nyu.edu/students/student-information-and-resources/career-development-and-jobs.html">Wasserman Center for Career Development</a><br/>
+                <a href="http://beinbrooklyn.org/jobs/">Brooklyn Education Innovation Network</a>
+              </p>
+                  </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #resources -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8">
+
+            <div class="row">
+
+                <div class="col-sm-4">
+                  <div class="footer-info">
+                    <h3><img src="logo/acmw_logo.png" alt="logo" height="50px"/></h3>
+                    <p>ACM-W supports, celebrates, and advocates internationally for the full engagement of women in all aspects of the computing field, providing a wide range of programs and resources to ACM members and working in the larger community to advance the contributions of technical women.</p>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#about">About Us</a></li>
+                      <li><a href="#events">Events</a></li>
+                      <li><a href="#resources">Resources</a></li>
+                      <!-- <li><a href="#">Privacy policy</a></li> -->
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    <p>
+                      6 Metrotech Center <br>
+                      New York, NY 11201<br>
+                      United States <br>
+                      <!-- <strong>Phone:</strong> +1 5589 55488 55<br> -->
+                      <strong>Email:</strong> acm-w-chapter@nyu.edu<br>
+                    </p>
+                  </div>
+
+
+                  <div class="social-links">
+                    <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+                    <a href="https://www.facebook.com/nyuacmw" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/acmwnyu" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <!-- <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
+                  </div>
+                </div>
+
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="form">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.081459051559!2d-73.98876768473316!3d40.69420357933385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4a4d8396f3%3A0xda9b313d596491f7!2sNew+York+University+Tandon+School+of+Engineering!5e0!3m2!1sen!2sus!4v1559859686466!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
